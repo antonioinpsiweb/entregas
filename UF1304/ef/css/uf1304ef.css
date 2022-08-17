@@ -1,0 +1,167 @@
+
+#externa{
+	width:90%;
+	margin:auto;
+	min-width:200px;}
+	
+header{
+	width:100%;
+	background-color:rgb(242,242,242);
+	text-align:center;
+	display:inline-block}
+	
+#logo{
+	float:left;
+	margin:5px 10px 5px 10px;
+	width:10%}
+	
+nav{
+	width:100%px;
+	min-height:50px;
+	background-color:lightgray;
+	vertical-align:middle;
+	font:normal 13pt Arial
+	}
+	
+#menu{
+	list-style-type:none;
+	margin-right:50px;
+	text-align:center}
+
+#menu li{
+	display:inline-block;
+	width:100px;
+	margin-top:15px;
+	padding-left:30px
+	}
+	
+#menu a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	}
+#menu a:hover{
+	text-decoration:underline red}	
+	
+article{
+	width:100%}
+	
+h2{
+	text-align:center}	
+
+	
+#imagen{
+	float:right;
+	margin-left:10px;
+	margin-right:10px}
+	
+footer{
+	width:100%;
+	text-align:center;
+	background-color:gray;
+	color:white;
+
+}
+	
+.pie{
+	width:32.8%;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	font:bold 12pt Arial;
+	}
+.borde{
+	border-right:1px solid black}
+	
+.rojo{
+	color:red}
+	
+/*Página Tienda*/
+
+.cajatienda{
+	width:440px;
+	height:200px;
+	display:inline-block;
+	margin-left:2.3px;
+	margin-bottom:5px;
+	border:1px solid black;
+	border-radius:15px}
+	
+.cajita{
+	width:56%;
+	display:inline-block;
+	padding:5px;
+	text-align:center}
+	
+.cajitados{
+	width:40%;
+	display:inline-block;
+	text-align:center;
+	}
+	
+.fotocaja{
+	width:60%}
+
+input{
+	margin-bottom:15px;
+	text-align:center}
+	
+.opciones{
+	display:inline-block;
+	width:255px;
+	height:120px;
+	border:1px solid black;
+	text-align:left;
+	border-radius:10px}
+	
+#transporte{
+	text-align:center;
+	font:bold 12pt black}
+	
+#entrega{
+	font:bold 13pt black;
+}
+	
+.centrado{
+	text-align:center;
+	}
+	
+/*Página Contacto*/
+
+#contacto{
+	text-align:center}
+	
+.cajacontacto{
+	border:1px solid black;
+	display:inline-block;
+	width:60%;
+	height:auto;
+	min-width:300px;
+	margin:auto;
+	text-align:center;
+	border-radius:10px}
+	
+.cajacontactodos{
+
+	width:38%;}
+	
+	
+iframe{
+	width:70%;
+	}
+	
+#textocondiciones{
+	font:normal 9pt arial}
+
+.negrita{
+	font-weight:bold}
+	
+
+	
+
+	
+	
+	
+	
+	
+	

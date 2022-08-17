@@ -1,0 +1,150 @@
+<html>
+	<head>
+		<title>Actividad UF1304EF</title>
+		<link href="css/uf1304ef.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<body>
+		<div id="externa">
+		
+			<header>
+				
+				<a href="index.html"><img id="logo" src="imagenes/logo.png" alt="logo"></a>
+								
+				<p><strong>Curso</strong>:IFCD0110 - CONFECCIÓN Y PUBLICACIÓN DE PÁGINAS WEB</p>
+				<p><strong>Módulo</strong>: MF0950_2: Construcción de páginas web</p>
+				<p><strong>UF</strong>: UF1304 - Elaboración de plantillas y formularios</p>
+				
+			</header>
+		
+			<nav>
+				
+				<ul id="menu">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="tienda.html">Tienda</a></li>
+						<li><a href="contacto.html"><span class="rojo">Contacto</span></a></li>
+				</ul>
+			</nav>
+			
+			<article>
+				<h2 id="contacto">Contacto</h2>
+				<div class="cajacontacto">
+					<form method="post" action="mailto:ejemplo@formularios.com">
+						<br/>
+						<table>
+							<tr>
+								<td>
+									<label class="negrita" for="nombre">Nombre*:</label>
+									<input type="text" name="nombre" size="20" maxlength="30" placeholder="Nombre*" required />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label class="negrita" for="apellidos">Apellidos*:</label>
+									<input type="text" name="primerapellido" size="20" maxlength="30" placeholder="Apellidos*" required />				
+								</td>
+								
+							</tr>	
+							<tr>
+								<td>
+									<label class="negrita" for="sexo">Sexo:</label>
+									<input type="radio" name="sexo" id="sexo1">
+										<label for="sexo1" id="sexo1">Masculino</label>
+									<input type="radio" name="sexo" id="sexo2">
+										<label for="sexo2" id="sexo2">Femenino</label>
+									<input type="radio" name="sexo" id="sexo3">
+										<label for="sexo3" id="sexo3">Otro</label>
+								</td>
+								
+							</tr>
+							<tr>
+								<td>
+									<label class="negrita" for="fecha">Fecha de Nacimiento:*</label>
+									<input type="date" name="fecha" id="fecha" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label class="negrita" for="tfno">Teléfono:*</label>
+									<input type="text" name="tfno" size="9" maxlength="9" placeholder="Teléfono" required />						
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<label class="negrita" for="direccion">Dirección:</label>
+									<input type="text" name="direccion" size="20" maxlength="50" placeholder="Dirección" />
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<label class="negrita" for="poblacion">Población:</label>
+									<input type="text" name="poblacion" size="20" maxlength="50" placeholder="Poblacion" />
+									
+									<label class="negrita" for="cp">CP:</label>
+									<input type="number" name="cp" size="5" maxlength="5" min="38001" max="38999" />
+								</td>
+							</tr>
+							
+							<tr>	
+								<td><br/>	
+									<label class="negrita" for="observaciones">Observaciones</label><br/><br/>	
+									<textarea id="observaciones" name="observaciones" maxlength="500"></textarea><br/><br/>	
+									
+									<label class="negrita" for="condiciones"></label>
+									<input type="checkbox" name="condiciones" /><span id="textocondiciones">Acepto condiciones privacidad</span>
+								</td>						
+							</tr>
+							
+							
+							
+						</table>
+						<br/>
+					</form>
+				</div>
+				
+				<div class="cajacontacto cajacontactodos">
+					<tr>
+
+						<td id ="finalconsulta">
+							<p><strong>INPSI</strong></p>
+							<p>Rambla de los Menceyes, 10,</p>
+							<p>Centro de Negocios Punta Larga</p>
+							<p>38530 Candelaria</p>
+							<p>922 50 40 25</p>
+							<br/>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14043.26572076259!2d-16.36672!3d28.364399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cac05fb0ca68681!2sInstituto%20Canario%20de%20Psicolog%C3%ADa%20Empresarial!5e0!3m2!1ses!2ses!4v1649874581000!5m2!1ses!2ses" width="300" height="217" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<br/><br/>
+							<input type="submit" value="ENVIAR"/><input type="reset" value="CANCELAR"/>
+							
+						</td>						
+					</tr>	
+				</div>
+
+			</article>
+			
+			<footer>			
+				<div class="pie borde">
+					<p>DATOS DE CONTACTO </p>
+					<p>&copy Loreley Gurruchaga Hernández, 78854463K–<br/> <a href="mailto:loreley.inpsiweb@gmail.com">loreley.inpsiweb@gmail.com</a></p><br/>
+				</div>
+				<div class="pie borde">
+					<p>PRUEBA FINAL</p>
+					<p>MF0950_2: Construcción de páginas web</p>
+					<p>UF1304 - Elaboración de plantillas y	formularios	</p>
+				
+				</div>
+				<div class="pie">
+					<p>INPSI</p>
+					<p>Rambla de los Menceyes, 10,</p>
+					<p>Centro de Negocios Punta Larga</p>
+					<p>38530 Candelaria</p>
+					<p>922 50 40 25</p>
+				</div>
+			</footer>
+		
+		</div>
+	</body>
+
+</html>
